@@ -1,4 +1,4 @@
-# Travel Agency Website
+# Travel Ease
 
 Welcome to the Travel Agency Website project! This website is designed to help you plan your travel adventures, including booking accommodations, tickets for buses, and rental cars. It's built using HTML, CSS, JavaScript, React, and Bootstrap.
 
@@ -36,6 +36,4 @@ The project has a lot of potential for growth and additional features. Here are 
 
 - **Itinerary Planning**: Create a feature that enables users to plan their entire trip, including activities and attractions.
 
-- **Multi-language Support**: Add support for multiple languages to cater to a global audience.
 
-- **Mobile Apps**: Develop mobile applications for both iOS and Android for users who prefer mobile booking.
