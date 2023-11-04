@@ -1,0 +1,36 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0); /* Adjust the alpha (fourth) value to control transparency */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    z-index: 1; /* Ensure the navbar is above the video */
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+.logo{
+    height: 30px;
+    width: 30px;
+}

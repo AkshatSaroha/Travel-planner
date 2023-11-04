@@ -1,0 +1,108 @@
+
+
+.app-container {
+    display: flex; 
+    height: 100vh; 
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
+  .section {
+    margin-bottom: 10px;
+  }
+  
+  .section-header {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid transparent;
+    transition: background-color 0.3s;
+  }
+  
+  .section-header:hover {
+    background-color: #555;
+  }
+  
+  .active {
+    background-color: #555;
+  }
+  
+  .subsection-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .subsection-item {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: background-color 0.3s;
+  }
+  
+  .subsection-item:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    flex: 1; /* Flex property to occupy the available space equally */
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+
+  }
+  .content #image-delhi{
+    object-fit:cover;
+    height: 740px;
+  }
+
+  .content #image-delhi-1{
+    object-fit:cover;
+    height: 150px;
+    width: 610px;
+  }
+  .content #heading-1{
+    align-items: center;
+    justify-content: center;
+    border: 2px grey;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .card-delhi{
+    width: 190px;
+  }
+  .card-text{
+    font-size: medium;
+    font-weight: bold;
+  }
+  #cards{
+    display: flex;
+    gap: 21px;
+  }
+  
+
+  .reservations{
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+  }
+  .reservations img{
+    height: 50px;
+    width: 50px;
+  }
+  .reservations div{
+    margin-left: 50px;
+  }
+  
+  #content-1{
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .form-group{
+    margin-top: 40px;
+  }

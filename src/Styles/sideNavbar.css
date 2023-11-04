@@ -1,0 +1,44 @@
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    height: 100vh;
+  }
+  
+  .section {
+    margin-bottom: 10px;
+  }
+  
+  .section-header {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid transparent;
+    transition: background-color 0.3s;
+    font-weight: bold;
+  }
+  
+  .section-header:hover {
+    background-color: #555;
+  }
+  
+  .active {
+    background-color: #555;
+  }
+  
+  .subsection-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .subsection-item {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: background-color 0.3s;
+  }
+  
+  .subsection-item:hover {
+    background-color: #555;
+  }
+  

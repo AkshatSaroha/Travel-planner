@@ -1,0 +1,75 @@
+/* cardSlider.css */
+.card-slider-container {
+  width: 1500px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.card-slider {
+  display: flex;
+  transition: transform 0.3s ease;
+  margin-left: 135px;
+}
+
+.card {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card .card-images {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.card .card-images:hover{
+  transform: scale(1.5);
+
+}
+
+.text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+}
+
+
+.prev-button,
+.next-button {
+  margin: 10px;
+  position: absolute;
+  top: 50%;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
+}
+
+.card-heading{
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+.card-heading h2{
+  font-weight: bolder;
+}
